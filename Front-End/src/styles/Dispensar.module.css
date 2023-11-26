@@ -1,0 +1,48 @@
+.container{
+    margin: 0;
+    display: grid;
+    place-content: center;
+    gap: 30px
+}
+
+.dispensar{
+    place-content: center;
+    border-radius: 40px;
+    background: #453973;
+    width: 391px;
+    height: 87px;
+    flex-shrink: 0;
+    border: none;
+
+}
+
+.contenidoEncima{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 20px;
+    font-family: Lexend, sans-serif;
+}
+
+/* Estilos para pantallas medianas */
+@media screen and (max-width: 1024px) {
+    .dispensar{
+        width: 291px;
+        height: 67px;
+    }
+
+    .contenidoEncima{
+        font-size: 16px;
+    }
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+    .dispensar{
+        width: 191px;
+        height: 47px;
+    }
+
+    .contenidoEncima{
+        font-size: 12px;
+    }
+}

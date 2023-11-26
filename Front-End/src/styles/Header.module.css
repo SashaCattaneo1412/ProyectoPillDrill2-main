@@ -1,0 +1,57 @@
+  .header {
+    width: 100%;
+    height: 150px;
+    flex-shrink: 0;
+    background: rgba(69, 72, 170, 1); 
+    opacity: 80%;
+    }
+    
+    
+    .barra {
+    display: flex;
+    flex-direction: column;
+    }
+    
+    @media (min-width:768px) {
+    .barra {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    }
+    @media (max-width:768px) {
+      .barra {
+          flex-direction: row;
+          justify-content: space-between;
+      }
+      }
+    
+    .logo {
+    float: left;
+    }
+    
+    .contactanos, .calendario {
+    border-radius: 40px;
+    background: #f9f4f0;
+    width: 320px;
+    height: 80px;
+    flex-shrink: 0;
+    border: none;
+    margin: 50px 100px; /* Ajusta este valor según la separación que desees entre los botones */
+    }
+    
+    .contenidoEncima {
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: Lexend, sans-serif;
+    }
+    
+    .contenedorBotones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+    
+    
+  

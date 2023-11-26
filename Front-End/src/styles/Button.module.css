@@ -1,0 +1,11 @@
+.button {
+    padding: 10px 20px;
+    background-color: var(--violeta);
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+

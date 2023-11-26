@@ -1,0 +1,272 @@
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30vh; /* Ajusta la altura según sea necesario */
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; /* Ajusta el espacio vertical entre las filas */
+}
+
+.row input {
+  margin: 0 20px; /* Ajusta el espacio horizontal entre los inputs */
+}
+
+
+
+
+ 
+
+ .title{
+ 
+    display: grid;
+    place-content: center;
+    align-items: center;
+    font-family: 'Lexend',sans-serif;;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    color: white; 
+
+ }
+
+ .IR
+{
+  place-content: center;
+  border-radius: 20px;
+  background: rgba(230, 221, 214, 1);
+  width: 120px;
+  height: 45px;
+  flex-shrink: 0;
+  font-family: 'Lexend', sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  border: none;
+  
+}
+.IR:hover
+{
+
+  background:var(--negro);
+  border:none;
+  color: white;
+
+  
+}
+
+
+
+
+ .contenedorflotante input{ 
+
+
+  background: rgba(255, 254, 254, 1);
+  width: 300px;
+  max-height: 250px;
+  border-radius: 9px;
+  border: none;
+  justify-content: center;
+  text-align: center;
+ }
+
+
+.seguimiento{
+  display: grid;
+  place-content: center;
+  color: white;
+  font-family: Lexend, sans-serif;
+  gap: 10px;
+  font-weight: 700;
+
+}
+
+.checkBox {
+ -ms-transform: scale(1,5); /* IE 9 */
+ -webkit-transform: scale(1,5); /* Chrome, Safari, Opera */
+ transform: scale(3);
+ display: flex;
+ place-content: center;
+ font-size: 8px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: aliceblue;
+  font-family: 'Lexend', sans-serif;
+}
+
+.cuenta{
+
+ 
+  font-size: 15px;
+  font-family: 'Lexend', sans-serif;
+  font-weight: 500;
+  color: white;
+
+}
+
+.contenedorflotante input[type="email"] {
+width: 290px;
+height: 44px;
+margin-bottom: -1px;
+font-family: 'Lexend',sans-serif;
+font-size: 15px;
+font-weight: 800;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+
+.contenedorflotante input[type="password"] {
+font-family: 'Lexend', sans-serif;
+width: 290px;
+height: 44px;
+font-size: 15px;
+font-weight: 800;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+}
+.container1{
+  display: flex;
+  place-content: center;
+}
+
+.check {
+  display: flex;
+  justify-content: center;
+}
+
+.contenedorflotante1 {
+  display: flex;
+  gap: 20px; /* Espacio entre los elementos dentro del contenedor */
+}
+.contenedorflotante1 input{ 
+
+
+  background: rgba(255, 254, 254, 1);
+  width: 300px;
+  max-height: 250px;
+  border-radius: 9px;
+  border: none;
+  justify-content: center;
+  text-align: center;
+ }
+ .contenedorflotante1 input[type="email"] {
+  width: 290px;
+  height: 44px;
+  margin-bottom: -1px;
+  font-family: 'Lexend',sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+  }
+  
+/*
+.flexbox {
+  display: grid;
+  place-content: center;
+  justify-content: center;
+  gap: 7px;
+ }
+
+.title {
+  color: white;
+  font-family: 'Lexend', sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: 0em;
+}
+
+.contenedorflotante input {
+  width: 292px;
+  height: 55px;
+  border-radius: 15px;
+  border: none;
+}
+
+
+.contenedorflotante input[type="input"] {
+  font-family: 'Lexend', sans-serif;
+  width: 290px;
+  height: 44px;
+  margin-bottom: -1px;
+  color: var(--negro);
+  gap: 40px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.contenedorflotante input[type="password"] {
+  font-family: 'Lexend', sans-serif;
+  width: 290px;
+  height: 44px;
+  gap: 21px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.seguimiento {
+  font-family: 'Lexend', sans-serif;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+}
+
+.checkBox {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: aliceblue;
+  font-family: 'Lexend', sans-serif;
+}
+
+.labels {
+  color: white;
+  font-size: 20px;
+}
+
+
+.IR {
+  background-image: url('/Image/dropdown.png');
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 20px 20px;
+  color: black;
+  padding: 12px;
+  height: 40px;
+  width: 125px;
+  border: none;
+  border-radius: 8px;
+  font-family: 'Lexend', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+
+.IR:hover {
+ 
+  background-color: #f1f1f1;
+}
+
+*/

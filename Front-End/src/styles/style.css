@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap');
+:root{
+   /* overflow-y: hidden;*/
+    --violeta: #9370DB;
+    --celeste: #87CEFA;
+    --Azul:#4169E1;
+    --negro:#000000;
+    --blanco: #FFF;
+    --fuente-principal: 'Lexend', sans-serif;
+    background: linear-gradient(180deg, #4548AA 0%, rgba(69, 72, 170, 0.72) 73.44%); 
+    background-attachment: fixed;
+    max-width: 100%;
+}
+
+body, html {
+
+   
+    height: 100%;
+    margin: 0; /* Asegura que no haya márgenes */
+    padding: 0; /* Asegura que no haya relleno */
+  }
+
+  @media (min-width: 1440px) {
+    .container {
+      min-width: 150px;
+    }
+  }
+
+    @media (min-width: 1440px) {
+      .header{
+        min-width: 150px;
+      }
+  
+}

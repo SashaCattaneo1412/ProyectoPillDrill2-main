@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  gap: 30px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px; /* Espacio entre columnas */
+  align-items: center; /* Centrar verticalmente */
+}
+
+.info {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  /* Agrega otros estilos según tus necesidades */
+}

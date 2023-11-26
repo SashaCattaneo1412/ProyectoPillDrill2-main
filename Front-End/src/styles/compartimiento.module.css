@@ -1,0 +1,68 @@
+.container{
+  display: flex;
+  justify-content: space-between; /* Distribuye el espacio horizontalmente */
+  align-items: center;
+  padding: 2px 200px; 
+}
+
+@media screen and (max-width:700px) {
+  .container{
+  display: inline-block;
+}
+}
+  
+
+.title{
+  display: grid;
+  place-content: center;
+  align-items: center;
+  font-family: 'Lexend',sans-serif;;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 40px;
+  letter-spacing: 0em;
+  color: white;
+ 
+}
+
+.containerimg{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+
+.button1 {
+  width: 250px;
+  height: 220px;
+  background-image: url('/Image/btn1.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+ }
+
+ .button2 {
+  width: 250px;
+  height: 220px;
+  background-image: url('/Image/btn2.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+ }
+ .button3 {
+  width: 250px;
+  height: 220px;
+  background-image: url('/Image/btn3.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+ }
+ .button4 {
+  width: 250px;
+  height: 220px;
+  background-image: url('/Image/btn4.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+ }

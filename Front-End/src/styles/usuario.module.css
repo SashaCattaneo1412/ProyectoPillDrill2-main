@@ -1,0 +1,156 @@
+/* Estilos originales */
+
+.img {
+  padding: 1px 200px;
+}
+
+
+.title {
+  padding: 3px 200px;
+  color: white;
+  font-family: 'Lexend', sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+  letter-spacing: 0em;
+}
+
+.label {
+  color: white;
+  font-family: 'Lexend', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0em;
+  margin-right: 100px;
+}
+
+/* Estilos responsive */
+
+@media (max-width: 900px) {
+  .img {
+    padding: 2px 20px;
+  }
+
+  .title,
+  .label {
+    padding: 3px 20px;
+    margin-right: 20px;
+    font-size: 15px;
+  }
+
+  .contenedorflotante {
+    gap: 10px;
+  }
+}
+
+.buttonPosition{
+
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+
+  .editar
+ {
+ 
+   
+   display: flex;
+   justify-content: center; /* Centrar horizontalmente */
+   cursor: pointer; /* Cambiar cursor al pasar el ratón */
+   border-radius: 20px;
+   background: rgba(230, 221, 214, 1);
+   width: 120px;
+   height: 45px;
+   flex-shrink: 0;
+   font-family: 'Lexend', sans-serif;
+   font-size: 25px;
+   font-weight: 900;
+   border: none;
+ }
+ .editar:hover
+ {
+ 
+   background:var(--negro);
+   border:none;
+   color: white;
+   
+ }
+ 
+ 
+ 
+ .LINK{
+     font-size: 15px;
+     color: white;
+ }
+
+ .seguimiento{
+ 
+   color: white;
+   font-family: 'Lexend', sans-serif;
+   gap: 10px;
+   font-weight: 600;
+   font-size: 15px;
+   margin-top: 20px;
+ 
+ }
+
+ .contenedorAbajo{
+
+  position: absolute;
+  bottom: 0px; /* Ajusta el valor para la separación del borde inferior */
+  right: 70px;
+  
+ }
+ 
+
+
+
+ .formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formGroup {
+  display: flex;
+  align-items: center;
+}
+
+ 
+.formGroup label {
+  width: 200px;
+  margin-right: 230px;
+  font-weight: 600;
+  
+}
+
+.formGroup input[type="text"] {
+  width: 250px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+@media (max-width: 920px) {
+  .img {
+    padding: 2px 10px; /* Reducción del padding */
+  }
+
+  .title {
+    padding: 3px 20px; /* Reducción del padding */
+    font-size: 30px; /* Tamaño de fuente más pequeño */
+  }
+}
+
+/* Estilos para el formulario */
+@media (max-width: 920px) {
+  .formGroup label {
+    width: 150px; /* Reducción del ancho de la etiqueta */
+    margin-right: 20px; /* Reducción del margen derecho */
+  }
+
+  .formGroup input[type="text"] {
+    width: 100px; /* Reducción del ancho del input */
+    padding: 5px 8px; /* Ajuste del padding */
+  }
+}

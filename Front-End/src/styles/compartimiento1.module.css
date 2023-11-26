@@ -1,0 +1,125 @@
+
+
+.formcontainer {
+  max-width: 100vw;
+  margin: 0 auto; /* Centra el contenedor */
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Dos columnas */
+  justify-content: space-around;
+ }
+
+  .formgroup {
+    display: flex;
+    flex-direction: column; /* Labels debajo de los elementos */
+    align-items: flex-start; /* Alinea los elementos a la izquierda */
+  }
+  
+  .label{
+  margin-top: 30px;
+  margin-left: 100px;
+  font-family: 'Lexend', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+
+  }
+.labelguardar{
+    color: var(--negro);
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Lexend', sans-serif;
+    align-items: center;
+    display: flex;
+    align-items: center; /* Centrar verticalmente el contenido */
+    justify-content: center; 
+    padding: 10px 20px
+
+}
+
+.contenedorflotante input[type="text"] {
+  background: rgba(255, 254, 254, 1);
+  width: 200px;
+  height: 28px;
+  border-radius: 5px;
+  border: none;
+ }
+
+ .contenedorflotante[type="date"]{
+  background: rgba(255, 254, 254, 1);
+  width: 200px;
+  height: 28px;
+  border-radius: 5px;
+  border: none;
+ }
+
+
+.guardar
+{
+ 
+
+  border-right: 5px;
+  right: 10px;
+  width: 120px;
+  height: 40px;
+  background: rgba(230, 221, 214, 1);
+  border: none; /* Sin borde */
+  border-radius: 10px;
+  font-size: 16px; /* Tamaño de fuente */
+  cursor: pointer; /* Cambiar cursor al pasar el ratón */
+
+}
+
+.img {
+    position: absolute;
+    top: 0.5; /* Alinea la imagen en la parte superior de la pantalla */
+    right: 0; /* Alinea la imagen a la derecha de la pantalla */
+    max-width: 30%; /* Ajusta el ancho de la imagen según tus necesidades */
+  }
+
+  .imagebutton{
+  
+    height: 30px;
+    width: 30px;
+    border: none;
+   /*<button className={style.imagebutton}>
+        </button>*/
+        
+    background-image: url('/Image/mas.png');
+    background-size: cover; /* Para que la imagen se ajuste al tamaño del botón */
+    background-repeat: no-repeat;
+   color: transparent;
+  }
+
+
+  .checkbox{
+  transform: scale(2);
+  }
+
+  .BTN{
+    cursor: pointer;
+    position: absolute;
+    border-radius: 5px;
+    background: #f9f4f0;
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+    border: none;
+    bottom: 35px; /* Ajusta la posición vertical desde la parte inferior */
+    right: 60px; 
+  
+  }
+  .contenidoEncima{
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: Lexend, sans-serif;
+  }
+  
+  @media (max-width: 767px) {
+    .label {
+       font-size: 2vw; /* Ajusta el tamaño de la fuente al 4% del ancho de la pantalla */
+    }
+   }

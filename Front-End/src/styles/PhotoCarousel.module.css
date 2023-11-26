@@ -1,0 +1,27 @@
+.carousel {
+    max-width: 100%; /* Ancho máximo del carrusel */
+    margin: auto; /* Centrar el carrusel en la página */
+    
+
+  }
+  
+  .carousel .slide img {
+    max-width: 100%; /* Ajusta el tamaño de la imagen dentro del carrusel */
+  }
+
+  .carousel2 {
+    max-width: 70%; /* Ancho máximo del carrusel */
+    margin: auto; /* Centrar el carrusel en la página */
+    
+
+  }
+
+  .carousel2 .slide img {
+    max-width: 80%; /* Ajusta el tamaño de la imagen dentro del carrusel */
+  }
+  
+
+  /*
+  .carousel{
+    display: none;
+  }*/

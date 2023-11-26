@@ -1,0 +1,9 @@
+.dias  {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* Repite 7 columnas para los días */
+    grid-gap: 5px; 
+    /* Agrega estilos para los días de la semana, como fondo, colores, etc. */
+    font-weight: 600;
+    color: black;  
+    font-family: 'Lexend',' sans-serif';
+}

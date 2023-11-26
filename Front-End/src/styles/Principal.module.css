@@ -1,0 +1,126 @@
+.container {
+    margin-top:150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    text-align: center; /* Alinea el texto al centro */
+  }
+
+  .formcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px; /* Ajusta el margen para acercar los elementos al borde */
+  }
+  
+  .inputContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px; /* Reducimos el espacio entre los contenedores de entrada */
+  }
+  
+  .label {
+    margin-left: 100px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    font-family: 'Lexend', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: white;
+   
+  }
+  
+
+  .inputContainer input[type="text"] {
+    background: rgba(255, 254, 254, 1);
+    width: 200px;
+    height: 28px;
+    border-radius: 5px;
+    border: none;
+   }
+
+  .BTN2{
+    cursor: pointer;
+    position: absolute;
+    border-radius: 5px;
+    background: #f9f4f0;
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+    border: none;
+    bottom: 35px; /* Ajusta la posición vertical desde la parte inferior */
+    right: 60px;
+    font-family: 'Lexend', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+  }
+
+
+  .BTN1{
+    cursor: pointer;
+    position: absolute;
+    border-radius: 5px;
+    background: #f9f4f0;
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+    border: none;
+    bottom: 35px; /* Ajusta la posición vertical desde la parte inferior */
+    right: 250px;
+    font-family: 'Lexend', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+  }
+
+
+.BTN{
+
+    margin-top: 30px; /* Espacio entre el segundo botón y el anterior */
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    cursor: pointer; /* Cambiar cursor al pasar el ratón */
+    border-radius: 20px;
+    background: rgba(230, 221, 214, 1);
+    width: 220px;
+    height: 40px;
+    flex-shrink: 0;
+    font-family: 'Lexend', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    border: none;
+
+}
+
+.img{
+
+    margin-top: 10px;
+}
+
+.title {
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Lexend', sans-serif; /* Reemplaza 'Lexend' con el nombre correcto de la fuente */
+    color: white;
+  }
+
+  .img2 {
+    position: absolute;
+    top: 0; /* Alinea la imagen en la parte superior de la pantalla */
+    right: 0; /* Alinea la imagen a la derecha de la pantalla */
+    max-width: 30%; /* Ajusta el ancho de la imagen según tus necesidades */
+  }
+
+  .date{
+    color: rgb(114, 12, 139);
+    size: 30px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 200px;
+
+  }
